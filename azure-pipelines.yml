@@ -11,7 +11,7 @@ resources:
 
 stages:
 - stage: Build and Push
-  displayName: Build and push image
+  displayName: build-and-push
   jobs:
   - job: Build
     displayName: Build
