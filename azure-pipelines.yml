@@ -10,8 +10,8 @@ resources:
 - repo: self
 
 stages:
-- stage: Build and Push
-  displayName: build-and-push
+- stage: build-and-push
+  displayName: Build and Push images
   jobs:
   - job: Build
     displayName: Build
